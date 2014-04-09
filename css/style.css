@@ -45,21 +45,21 @@ input[type="submit"] {
 }
 .pageContentWrapper {
 	background-color: #fff;
-	padding-top: 18px;
+	padding-top: 10px;
 	padding-left: 12px;
 	padding-right: 12px;
-	margin-left: 15px;
-	margin-right: 15px;
+	margin-left: 0px;
+	margin-right: 0px;
 	padding-bottom: 27px;
 }
 .pageWrapper > *:last-child, .pageContentWrapper > *:last-child {
 	margin-bottom: 0px;
 }
 .pageTitle {
-	border-bottom: 3px solid #f0f0f0;
-	padding-bottom: 22px;
+	border-bottom: 0px solid #f0f0f0;
+	padding-bottom: 5px;
 	margin-top: 2px;
-	margin-bottom: 23px;
+	margin-bottom: 5px;
 }
 .blockTitle {
 	margin-bottom: 22px;
@@ -91,11 +91,11 @@ input[type="submit"] {
 .accordionButton {
 	background-color: #f0f0f0;
 	color: #666;
-	border-radius: 6px;
+	border-radius: 0px;
 }
 .accordionContent {
 	border-color: #f0f0f0;
-	border-radius: 6px;
+	border-radius: 0px;
 }
 .largeImage {
 	border-color: #f0f0f0;
@@ -107,10 +107,10 @@ input[type="submit"] {
 .headerWrapper {
 	padding-left: 8px;
 	padding-right: 8px;
-	padding-top: 20px;
+	padding-top: 5px;
 	z-index: 9990;
 	height: 46px;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 .mainMenuButton {
 	height: 18px;
@@ -118,7 +118,7 @@ input[type="submit"] {
 	background: url(../images/common/mainMenuButtonBg.png) 0px 0px no-repeat;
 	position: relative;
 	float: right;
-	margin-top: 7px;
+	margin-top: 14px;
 }
 .mainMenuOuterWrapper > .mainMenuButton {
 	position: absolute;
@@ -157,8 +157,7 @@ input[type="submit"] {
 	min-height: 100%;
 	z-index: 999;
 	top: 0px;
-	padding-top: 86px;
-	background-color:#014478;
+	padding-top: 61px;
 }
 .mainMenuWrapper {
 	clear: both;
@@ -222,7 +221,7 @@ input[type="submit"] {
 	background-image: url(../images/common/mainMenuIcon2LightBg.png);
 }
 .mainMenuItemIcon3Light {
-	background-image: url(../images/common/mainMenuIcon3LightBg.png);
+	background-image: url(../images/common/iconGlobeBg32.png);
 }
 .mainMenuItemIcon4Light {
 	background-image: url(../images/common/mainMenuIcon4LightBg.png);
@@ -243,7 +242,6 @@ input[type="submit"] {
 	background-image: url(../images/common/mainMenuIcon9LightBg.png);
 }
 .mainMenuItemOverlay {
-	background-color: #fff;
 	display: block;
 	position: absolute;
 	top: 0px;
@@ -742,7 +740,7 @@ a.nivo-prevNav:hover {
 	margin-bottom: 0px;
 }
 .portfolioOneWrapper {
-	padding: 15px;
+	padding: 15px 8px;
     background-color:#f6f6f6;
 }
 .portfolioOneItemWrapper {
@@ -756,7 +754,7 @@ a.nivo-prevNav:hover {
 }
 .portfolioOneItemImageWrapper img {
 	width: 100%;
-	height: auto; border:1px solid #ccc;
+	height: auto; 
 }
 .portfolioOneItemInfoWrapper {
 	background-color: #f6f6f6;
@@ -770,7 +768,6 @@ a.nivo-prevNav:hover {
 }
 .portfolioOneItemTitle {
 	margin-bottom: 8px;
-	height: 18px;
 	padding-bottom: 0px; font-weight:bold;
 }
 .portfolioOneHoverDeco {
@@ -1413,3 +1410,20 @@ input.fieldHasError, textarea.fieldHasError {
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /*//////////////////// Reset CSS Rules End                                                                                */
 /*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.for-img .portfolioOneItemImageWrapper img { border:2px solid #ccc!important;}
+
+.accordionContent ul { margin:0px; padding:0px; list-style:none;}
+.accordionContent ul li{ list-style:circle;}
+div.gallery-row:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
+div.gallery-item { float: left; width: 33.33333333%; }
+div.gallery-item a { display: block; margin: 5px; border: 1px solid #fff; }
+div.gallery-item img { display: block; width: 100%; height: auto; }
+
+
+
+
+
+
+

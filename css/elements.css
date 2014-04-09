@@ -510,7 +510,7 @@ blockquote {
 	margin-bottom: 0px;
 }
 .accordionItemWrapper {
-	margin-bottom: 27px;
+	margin-bottom: 15px;
 }
 .accordionButton {
 	background-color: #f0f0f0;
@@ -545,7 +545,7 @@ blockquote {
 .accordionContent {
 	padding: 12px;
 	border: 1px solid #f0f0f0;
-	margin-top: 27px;
+	margin-top: 0px;
 }
 .accordionContentWrapper .accordionContent > *:last-child {
 	margin-bottom: 0px;
