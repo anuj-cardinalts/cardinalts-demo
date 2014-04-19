@@ -56,7 +56,6 @@ body {
 }
 div, header, footer, section, article, nav, button, a, p, img, ul, ol, blockquote, form, fieldset, textarea, input, label, iframe, code, pre {
 	display: block;
-	overflow: hidden;
 	position: relative;
 }
 p {
@@ -251,11 +250,10 @@ ol {
 	position: relative;
 }
 li {
-	padding-left: 12px;
 	line-height: 18px;
-	margin-bottom: 18px;
+	margin-bottom: 0px;
 	display: list-item;
-	position: relative;
+	position: relative; 
 }
 ol > li:last-child, ul > li:last-child {
 	margin-bottom: 0px;

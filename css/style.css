@@ -117,7 +117,7 @@ input[type="submit"] {
 	width: 24px;
 	background: url(../images/common/mainMenuButtonBg.png) 0px 0px no-repeat;
 	position: relative;
-	float: right;
+	float: left;
 	margin-top: 14px;
 }
 .mainMenuOuterWrapper > .mainMenuButton {
@@ -132,7 +132,7 @@ input[type="submit"] {
 	height: 46px;
 	margin-top: 0px;
 	width: 175px;
-	float: left;
+	float: right;
 }
 .mainLogo > img {
 	height: 46px;
@@ -1421,7 +1421,12 @@ div.gallery-item { float: left; width: 33.33333333%; }
 div.gallery-item a { display: block; margin: 5px; border: 1px solid #fff; }
 div.gallery-item img { display: block; width: 100%; height: auto; }
 
-
+.home {background: url(../images/common/mainMenuIcon1LightBg.png) no-repeat 10px 8px;}
+.corporate-website {background: url(../images/common/mainMenuIcon2LightBg.png) no-repeat 10px 8px;}
+.web-applications {background: url(../images/common/iconGlobeBg32.png) no-repeat 10px 8px;}
+.web-gallery {background: url(../images/common/mainMenuIcon6LightBg.png) no-repeat 10px 8px;}
+.contact {background: url(../images/common/mainMenuIcon9LightBg.png) no-repeat 10px 8px;}
+.sitemap {background: url(../images/common/mainMenuIcon8LightBg.png) no-repeat 10px 8px;}
 
 
 
