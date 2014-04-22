@@ -33,6 +33,7 @@
 <script type="text/javascript" src="./js/jquery.colorbox.min.js"></script>
 <script type="text/javascript" src="./js/custom.js"></script>
 <script type="text/javascript" src="./js/modernizr.custom.js"></script>
+<script type="text/javascript" src="./js/cordova.js"></script>
 <script>
 function email()
 {
@@ -42,7 +43,23 @@ window.alert = function(title, message){
 }	
 }
 </script>
+ <script type="text/javascript" charset="utf-8">
 
+    // Wait for device API libraries to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    // device APIs are available
+    //
+    function onDeviceReady() {
+		alert(1);
+        // external url
+        var ref = window.open(encodeURI('http://demo.cardinalts.com/harrismycfoprefix/0,4854,52776115_52855345,00.html'), '_blank', 'location=yes');
+        // relative document
+       // ref = window.open('next.html', '_self');
+    }
+
+    </script>
 <!-- JavaScript files end -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
 <body>
@@ -54,12 +71,12 @@ window.alert = function(title, message){
 				<nav id="mp-menu" class="mp-menu">
 					<div class="mp-level">
 						<ul>
-                              <li class=""><span class=""></span><a href="./index.html"><span>Home</span></a></li>
-                              <li class=""><span class=""></span><a class="active" href="./corporate-website.html"><span>Corporate Web Sites</span></a> </li>
-                              <li class=""><span class=""></span><a href="./web-application.html"><span>Web Applications</span></a></li>
-                              <li class=""><span class=""></span><a href="./gallery.html"><span>Web Gallery</span></a></li>
-                              <li class=""><span class=""></span><a href="#" onclick="email()"><span>Contact</span></a></li>
-                              <li class=""><span class=""></span><a href="./sitemap.html"><span>Sitemap</span></a></li>
+                              <li class="home"><span class=""></span><a href="./index.html"><span>Home</span></a></li>
+                              <li class="corporate-website"><span class=""></span><a class="active" href="./corporate-website.html"><span>Corporate Web Sites</span></a> </li>
+                              <li class="web-applications"><span class=""></span><a href="./web-application.html"><span>Web Applications</span></a></li>
+                              <li class="web-gallery"><span class=""></span><a href="./gallery.html"><span>Web Gallery</span></a></li>
+                              <li class="contact"><span class=""></span><a href="#" onclick="email()"><span>Contact</span></a></li>
+                              <li class="sitemap"><span class=""></span><a href="./sitemap.html"><span>Sitemap</span></a></li>
 						</ul>
 					</div>
 				</nav>
@@ -91,7 +108,7 @@ window.alert = function(title, message){
         <div class="portfolioOneItemInfoWrapper">
           <p>Harris myCFO is a leading provider of family office services. The website was developed using standards based web technologies like XHTML, CSS, Javascript, Google Search, XML and XSLT</p>
         </div>
-        <div class="portfolioOneItemButtonsWrapper"><a href="http://demo.cardinalts.com/harrismycfoprefix/0,4854,52776115_52855345,00.html" target="_blank" class="portfolioOneDetailsButton">Launch</a></div>
+        <div class="portfolioOneItemButtonsWrapper"><a  href="javascript:onDeviceReady();" target="_blank" class="portfolioOneDetailsButton">Launch</a></div>
       </div>
       <!-- portfolio item ends --> 
       <!-- portfolio item starts  -->
