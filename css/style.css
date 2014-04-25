@@ -95,7 +95,7 @@ input[type="submit"] {
 }
 .accordionContent {
 	border-color: #f0f0f0;
-	border-radius: 0px;
+	border-radius: 0px; padding-left:32px;
 }
 .largeImage {
 	border-color: #f0f0f0;
@@ -114,11 +114,11 @@ input[type="submit"] {
 }
 .mainMenuButton {
 	height: 18px;
-	width: 24px;
+	width: 30px;
 	background: url(../images/common/mainMenuButtonBg.png) 0px 0px no-repeat;
 	position: relative;
 	float: left;
-	margin-top: 14px;
+	margin-top: 14px; z-index:999999;
 }
 .mainMenuOuterWrapper > .mainMenuButton {
 	position: absolute;
@@ -1415,7 +1415,7 @@ input.fieldHasError, textarea.fieldHasError {
 .for-img .portfolioOneItemImageWrapper img { border:2px solid #ccc!important;}
 
 .accordionContent ul { margin:0px; padding:0px; list-style:none;}
-.accordionContent ul li{ list-style:circle;}
+.accordionContent ul li{ list-style:circle; padding-bottom:5px;}
 div.gallery-row:after { clear: both; content: "."; display: block; height: 0; visibility: hidden; }
 div.gallery-item { float: left; width: 33.33333333%; }
 div.gallery-item a { display: block; margin: 5px; border: 1px solid #fff; }
