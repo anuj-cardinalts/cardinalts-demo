@@ -7,10 +7,10 @@
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
-<!--    <feature name="InAppBrowser">
+  <feature name="InAppBrowser">
         <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
     </feature>
--->    <name>Cardinalts Demo</name>
+  <name>Cardinalts Demo</name>
    <!-- <description>
         A sample Apache Cordova application that responds to the deviceready event.
     </description>-->
